@@ -52,7 +52,7 @@ self.addEventListener("fetch", fetchEvent => {
     fetchEvent.respondWith(
         caches.match(fetchEvent.request).then(res => {
             return res || fetch(fetchEvent.request);
-        }).catch(() => caches.match("/pages/fallback.html"))
+        }).catch(() => caches.match("/EventosSociales.github.io/pages/fallback.html"))
     );
 });
 

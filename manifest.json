@@ -12,22 +12,22 @@
     "author": "Brandon Balderas Lucas, Citlaly Salome Ordoñez Romero",
     "orientation": "portrait-primary",
     "icons": [{
-            "src": "/images/icons/icon-72x72.png",
+            "src": "/EventosSociales.github.io/images/icons/icon-72x72.png",
             "type": "image/png",
             "sizes": "72x72"
         },
         {
-            "src": "/images/icons/icon-96x96.png",
+            "src": "/EventosSociales.github.io/images/icons/icon-96x96.png",
             "type": "image/png",
             "sizes": "96x96"
         },
         {
-            "src": "/images/icons/icon-128x128.png",
+            "src": "/EventosSociales.github.io/images/icons/icon-128x128.png",
             "type": "image/png",
             "sizes": "128x128"
         },
         {
-            "src": "/images/icons/icon-152x152.png",
+            "src": "/EventosSociales.github.io/images/icons/icon-152x152.png",
             "type": "image/png",
             "sizes": "152x152"
         },
