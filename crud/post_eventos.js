@@ -47,7 +47,7 @@ function Post_eventos() {
                 text: json.detail,
                 type: "error"
             }).then(function() {
-                window.location = "/admin/templates/login.html";
+                window.location = "/EventosSociales.github.io/admin/templates/login.html";
             }
             );
         }
@@ -70,7 +70,7 @@ function Post_eventos() {
                     text: "No se ha iniciado sesión",
                     type: "error"
                 }).then(function() {
-                    window.location = "/admin/templates/login.html";
+                    window.location = "/EventosSociales.github.io/admin/templates/login.html";
                 }
                 );
             }
@@ -80,7 +80,7 @@ function Post_eventos() {
                     text: "Redireccionando...",
                     type: "success"
                 }).then(function() {
-                    window.location = "/admin/templates/eventos.html";
+                    window.location = "/EventosSociales.github.io/admin/templates/eventos.html";
                 });
             }
 
@@ -90,7 +90,7 @@ function Post_eventos() {
                     text: "Redireccionando...",
                     type: "error"
                 }).then(function() {
-                    window.location = "../index.html";
+                    window.location = "/EventosSociales.github.io/index.html";
                 }
                 );
             }
@@ -102,7 +102,7 @@ function Post_eventos() {
             text: "Todos los campos son obligatorios",
             type: "error"
         }).then(function() {
-            window.location = "/admin/templates/crear_evento.html";
+            window.location = "/EventosSociales.github.io/admin/templates/crear_evento.html";
         }
         );
     }

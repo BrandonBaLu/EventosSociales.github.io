@@ -10,11 +10,11 @@ if ("serviceWorker" in navigator) {
 
 const notification = new Notification("Bienvenido a Braly", {
     body: "BraLy es una aplicación que te permite crear y compartir tus eventos sociales",
-    icon: "/images/icons/icon-96x96.png",
+    icon: "/EventosSociales.github.io/images/icons/icon-96x96.png",
     timeout: 1500000,
     vibrate: [100, 100, 100],
     onClick: function(){
-        window.location = "/templates/eventos.html";
+        window.location = "/EventosSociales.github.io/templates/eventos.html";
         console.log(this);
     }
 });
@@ -62,7 +62,7 @@ self.addEventListener('push', function (event) {
         const notificationText = event.data.text();
         const showNotification = self.registration.showNotification('BraLy notificaciones', {
             body: notificationText,
-            icon: '/images/icons/icon-96x96.png'
+            icon: '/EventosSociales.github.io/images/icons/icon-96x96.png'
         });
         // Make sure the toast notification is displayed.
         event.waitUntil(showNotification);
@@ -236,7 +236,7 @@ function buscar_evento(){
                         '</ul>'+
                         '</p>'+
                         '<p class="parrafos">'+descripcion+'</p>'+
-                        '<a class="btn btn-success btn-sm btn-block btn-lg" href="/templates/ubicacion.html?' + id + '">Ver más</a>' +
+                        '<a class="btn btn-success btn-sm btn-block btn-lg" href="/EventosSociales.github.io/templates/ubicacion.html?' + id + '">Ver más</a>' +
                         '</div>'+
                         '</div>'+
                         '</center>';

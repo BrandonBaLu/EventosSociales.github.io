@@ -55,7 +55,7 @@ function update_eventos() {
                 text: "No se ha iniciado sesión",
                 type: "error"
             }).then(function() {
-                window.location = "/admin/templates/login.html";
+                window.location = "/EventosSociales.github.io/admin/templates/login.html";
             });
         }
 
@@ -65,7 +65,7 @@ function update_eventos() {
                 text: "No se ha iniciado sesión",
                 type: "error"
             }).then(function() {
-                window.location = "/admin/templates/login.html";
+                window.location = "/EventosSociales.github.io/admin/templates/login.html";
             });
         }
 
@@ -80,7 +80,7 @@ function update_eventos() {
                 text: "",
                 type: "info"
             }).then(function() {
-                window.location = "/admin/templates/ver_evento.html?" + id;
+                window.location = "/EventosSociales.github.io/admin/templates/ver_evento.html?" + id;
             });
         }
     };

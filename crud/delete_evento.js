@@ -32,7 +32,7 @@ function delete_evento() {
                         text: json.detail,
                         type: "error"
                     }).then(function() {
-                        window.location = "/admin/templates/login.html";
+                        window.location = "/EventosSociales.github.io/admin/templates/login.html";
                     });
                 }
 
@@ -42,7 +42,7 @@ function delete_evento() {
                         text: "No se ha iniciado sesión",
                         type: "error"
                     }).then(function() {
-                        window.location = "/admin/templates/login.html";
+                        window.location = "/EventosSociales.github.io/admin/templates/login.html";
                     });
                 }
 
@@ -53,7 +53,7 @@ function delete_evento() {
                         confirmButtonText: "Aceptar"
                     }).then(result => {
                         if (result.value) {
-                            window.location.href = "/admin/templates/eventos.html";
+                            window.location.href = "/EventosSociales.github.io/admin/templates/eventos.html";
                         }
                     });
                 }

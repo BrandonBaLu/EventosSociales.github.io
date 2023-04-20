@@ -78,7 +78,7 @@ function ver_evento() {
                 text: "",
                 type: "info"
             }).then(function() {
-                window.location = "/index.html";
+                window.location = "/EventosSociales.github.io/index.html";
             }
             );
         }

@@ -6,18 +6,18 @@
       <title>Eventos Registrados</title>
       <meta name="description" content="Eventos Sociales" />
       <meta name="author" content=" Citlaly SaLlome Ordoñez Romero & Brandon Balderas Lucas">
-      <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon"> 
+      <link rel="shortcut icon" href="/EventosSociales.github.io/images/logo.png" type="image/x-icon"> 
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
       <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-      <link rel="stylesheet" href="/css/font-awesome.min.css">
-      <link rel="stylesheet" href="/css/style.css">
-      <script type="text/javascript" src="/crud/get_eventos_admin.js"></script>
+      <link rel="stylesheet" href="/EventosSociales.github.io/css/font-awesome.min.css">
+      <link rel="stylesheet" href="/EventosSociales.github.io/css/style.css">
+      <script type="text/javascript" src="/EventosSociales.github.io/crud/get_eventos_admin.js"></script>
       <script>
         const token = sessionStorage.getItem('token');
         if(token == null){
           alert("No has iniciado sesión");
-          window.location.href = "/admin/templates/login.html";
+          window.location.href = "/EventosSociales.github.io/admin/templates/login.html";
         }
         </script>
     </head>
@@ -27,12 +27,12 @@
       <div class="row">
         <div class="col-sm-4">
           <a class="navbar-brand" href="index.html">
-            <img src="/images/logo.png" width="90" height="70" class="d-inline-block align-top" alt="">
+            <img src="/EventosSociales.github.io/images/logo.png" width="90" height="70" class="d-inline-block align-top" alt="">
           </a>
         </div>
         <div class="col-sm-4">
           <br>
-          <a href="/admin/templates/crear_evento.html" class="text-decoration-none">
+          <a href="/EventosSociales.github.io/admin/templates/crear_evento.html" class="text-decoration-none">
             <button type="button" class="btn btn-primary">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar2-date" viewBox="0 0 16 16">
                 <path d="M6.445 12.688V7.354h-.633A12.6 12.6 0 0 0 4.5 8.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23z"/>
