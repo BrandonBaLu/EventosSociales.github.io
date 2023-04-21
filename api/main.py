@@ -40,11 +40,10 @@ class UserIN(BaseModel):
     
 
 origins = [
-    "http://0.0.0.0:8000/",
-    "http://127.0.0.1:8000/",
-    "*",   
-            
-    ]
+    "http://68.183.67.194/",
+
+    "*",               
+]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
