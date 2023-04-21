@@ -160,7 +160,7 @@ function imagenes_carrucel(){
                         concat = id_product.concat(cont-1);    
                         //console.log(concat);
                         carru.innerHTML += '<div class="product" id="'+concat+'">'+
-                        '<a class="navbar-brand" href="/templates/ubicacion.html?'+id+'">'+
+                        '<a class="navbar-brand" href="/EventosSociales.github.io/templates/ubicacion.html?'+id+'">'+
                             '<img src="'+imagen+'" class="d-inline-block align-top" alt="">'+
                         '</a>'+
                         '<h5>'+nombre+'</h5>'+
