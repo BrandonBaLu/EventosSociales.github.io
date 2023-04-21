@@ -1,7 +1,7 @@
 function getEventos() {
 
     var request = new XMLHttpRequest();
-    request.open('GET', "http://127.0.0.1:8000/eventos/");
+    request.open('GET', "http://68.183.67.194/eventos/");
     request.setRequestHeader("Accept", "application/json");
     request.setRequestHeader("content-type", "application/json");
 

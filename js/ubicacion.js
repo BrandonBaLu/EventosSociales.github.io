@@ -4,7 +4,7 @@ function ubicacion_google_maps() {
     //console.log("id: " + id);
 
     var request = new XMLHttpRequest();
-    request.open('GET', "http://127.0.0.1:8000/eventos/"+ id,true);
+    request.open('GET', "http://68.183.67.194/eventos/"+ id,true);
     request.setRequestHeader("Accept", "apppcation/json");
     request.setRequestHeader("content-type", "apppcation/json");
 

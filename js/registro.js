@@ -9,7 +9,7 @@ function PostRegUser(){
     
 
     var request = new XMLHttpRequest();
-    request.open('POST', "http://127.0.0.1:8000/registro/",true);
+    request.open('POST', "http://68.183.67.194/registro/",true);
     request.setRequestHeader("accept", "application/json");
     request.setRequestHeader("Content-Type", "application/json");
  
