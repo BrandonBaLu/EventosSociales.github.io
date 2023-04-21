@@ -37,7 +37,7 @@ function update_eventos() {
     }
     
     var request = new XMLHttpRequest();
-    request.open('PUT', "http://127.0.0.1:8000/eventos/",true);
+    request.open('PUT', "http://68.183.67.194/eventos/",true);
     request.setRequestHeader("accept", "application/json");
     request.setRequestHeader("Authorization", "Bearer " +token);
     request.setRequestHeader("Content-Type", "application/json");

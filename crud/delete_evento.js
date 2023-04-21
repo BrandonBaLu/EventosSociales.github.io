@@ -16,7 +16,7 @@ function delete_evento() {
     }).then(result => {
         if (result.value) {
             var request = new XMLHttpRequest();
-            request.open("DELETE", "http://127.0.0.1:8000/eventos/" + id, true);
+            request.open("DELETE", "http://68.183.67.194/eventos/" + id, true);
             request.setRequestHeader("accept", "application/json");
             request.setRequestHeader("Authorization", "Bearer " +token);
             request.setRequestHeader("Content-Type", "application/json");
